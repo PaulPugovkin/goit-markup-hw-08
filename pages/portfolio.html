@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.min.css">
+    <title>WebStudio (Version 2.0)</title>
+</head>
+    <body>
+        <!--Хэдер-->
+        <header class="header">
+            <div class="container">
+                <nav class="nav-menu">
+                    <a class="link logo-text" href="/">
+                        <span class="logo-text-accent">Web</span>Studio
+                    </a>
+                    <ul class="list">
+                        <li><a class="link header-link" href="../index.html">Студия</a></li>
+                        <li><a class="link current-page-link" href="#">Портфолио</a></li>
+                        <li><a class="link header-link" href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+                <ul class="list contact-menu">
+                    <li>
+                        <a class="link contact-text mail" href="mailto:info@devstudio.com">
+                            <svg width=16 height=12>
+                                <use href="../images/sprite.svg#icon-mail"></use>
+                            </svg>
+                            info@devstudio.com
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link contact-text phone" href="tel:+380961111111">
+                            <svg width=10 height=16>
+                                <use href="../images/sprite.svg#icon-smartphone"></use>
+                            </svg>
+                            +38 096 111 11 11
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        
+        </header>
+
+        <main>
+            <section class="portfolio-container">
+                <div class="container">
+                    <h1>Портфолио</h1>
+                    <!--Фильтр-->
+                    <ul class="list button-list">
+                        <li>
+                            <button class="button-item" type="button">Все</button>
+                        </li>
+                        <li>
+                            <button class="button-item" type="button">Веб-сайты</button>
+                        </li>
+                        <li>
+                            <button class="button-item" type="button">Приложения</button>
+                        </li>
+                        <li>
+                            <button class="button-item" type="button">Дизайн</button>
+                        </li>
+                        <li>
+                            <button class="button-item" type="button">Маркетинг</button>
+                        </li>
+                    </ul>
+                    <!--Примеры работы-->
+                    <ul class="list example-container">
+                        <li class="example-block">
+                            <a href="#" class="link">
+                                <div class="image">
+                                    <img src="../images/portfolio/tech-site.jpg" alt="Изображение сайта на экране ноутбука" width=370>
+                                    <div class="overlay-example">
+                                       <div class="overlay-text">
+                                           <p>
+                                               Технокряк это современная площадка распространения коронавируса. 
+                                               Компании используют эту платформу для цифрового
+                                               шпионажа и атак на защищённые сервера конкурентов.
+                                           </p>
+                                       </div>
+                                    </div>
+                                </div>
+                                <div class="example-titles">
+                                    <h2 class="example-title">Технокряк</h2>
+                                    <p class="example-discription">Веб-сайт</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="example-block">
+                            <a href="#" class="link">
+                                <div class="image">
+                                    <img src="../images/portfolio/nba-poster.jpg" alt="Постер новый орлеан против золотых звезд" width=370>
+                                    <div class="overlay-example">
+                                       <div class="overlay-text">
+                                           <p>
+                                               Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                               Quam rem, at fugit perspiciatis deserunt unde.
+                                           </p>
+                                       </div>
+                                    </div>
+                                </div>
+                                <div class="example-titles">
+                                    <h2 class="example-title">Постер New Orlean vs Golden Star</h2>
+                                    <p class="example-discription">Дизайн</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="example-block">
+                            <a href="#" class="link">
+                                <div class="image">
+                                    <img src="../images/portfolio/seafood-restaurant.jpg" alt="Логотип ресторана" width=370>
+                                    <div class="overlay-example">
+                                       <div class="overlay-text">
+                                           <p>
+                                               Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                               Incidunt officiis exercitationem voluptatibus, nesciunt voluptatem laborum, inventore vero dicta vel, 
+                                               repellendus quisquam nisi eos ad rem.
+                                           </p>
+                                       </div>
+                                    </div>
+                                </div>
+                                <div class="example-titles">
+                                    <h2 class="example-title">Ресторан Seafood</h2>
+                                    <p class="example-discription">Приложение</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="example-block">
+                            <a href="#" class="link">
+                                <div class="image">
+                                    <img src="../images/portfolio/prime-marketing.jpg" alt="Беспроводные наушники" width=370>
+                                    <div class="overlay-example">
+                                       <div class="overlay-text">
+                                           <p>
+                                               Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                               Nulla iure temporibus sequi nostrum facilis, tenetur tempora molestias.
+                                           </p>
+                                       </div>
+                                    </div>
+                                </div>
+                                <div class="example-titles">
+                                    <h2 class="example-title">Проект Prime</h2>
+                                    <p class="example-discription">Маркетинг</p>
+                                </div>
+                            </a>
+                    
+                        </li>
+                        <li class="example-block">
+                            <a href="#" class="link">
+                                <div class="image">
+                                    <img src="../images/portfolio/boxes-app.jpg" alt="Две лежащие коробки" width=370>
+                                    <div class="overlay-example">
+                                       <div class="overlay-text">
+                                           <p>
+                                               Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                               Provident deserunt quas illum iste distinctio odit optio atque mollitia suscipit, 
+                                               animi ex recusandae officia totam! Natus accusamus magni quam culpa animi.
+                                           </p>
+                                       </div>
+                                    </div>
+                                </div>
+                                <div class="example-titles">
+                                    <h2 class="example-title">Проект Boxes</h2>
+                                    <p class="example-discription">Приложение</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="example-block">
+                            <a href="#" class="link">
+                                <div class="image">
+                                    <img src="../images/portfolio/ihnb-site.jpg" alt="Изображение сайта на моноблоке" width=370>
+                                    <div class="overlay-example">
+                                       <div class="overlay-text">
+                                           <p>
+                                               Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                               Culpa atque debitis nihil doloremque soluta, 
+                                               fuga eligendi eos ducimus numquam repellat?
+                                           </p>
+                                       </div>
+                                    </div>
+                                </div>
+                                <div class="example-titles">
+                                    <h2 class="example-title">Inspiration has no Borders</h2>
+                                    <p class="example-discription">Веб-сайт</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="example-block">
+                            <a href="#" class="link">
+                                <div class="image">
+                                    <img src="../images/portfolio/izdanie-lim-ed.jpg" alt="Раскрытый журнал" width=370>
+                                    <div class="overlay-example">
+                                       <div class="overlay-text">
+                                           <p>
+                                               Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                               Nam, iure rerum ut nihil accusantium inventore, 
+                                               laudantium maiores maxime enim, qui saepe quas tempora!
+                                           </p>
+                                       </div>
+                                    </div>
+                                </div>
+                                <div class="example-titles">
+                                    <h2 class="example-title">Издание Limited Edition</h2>
+                                    <p class="example-discription">Дизайн</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="example-block">
+                            <a href="#" class="link">
+                                <div class="image">
+                                    <img src="../images/portfolio/lab-project.jpg" alt="Бумажный ярлык с названием компании" width=370>
+                                    <div class="overlay-example">
+                                       <div class="overlay-text">
+                                           <p>
+                                               Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                               Error officiis magni, sapiente quaerat eos ad 
+                                               cupiditate aperiam. Numquam, dolore.
+                                           </p>
+                                       </div>
+                                    </div>
+                                </div>
+                                <div class="example-titles">
+                                    <h2 class="example-title">Проект LAB</h2>
+                                    <p class="example-discription">Маркетинг</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="example-block">
+                            <a href="#" class="link">
+                                <div class="image">
+                                    <img src="../images/portfolio/buisness-app.jpg" alt="Работающий человек на ноутбуке" width=370>
+                                    <div class="overlay-example">
+                                       <div class="overlay-text">
+                                           <p>
+                                               Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                               Magnam eveniet minima, fuga magni necessitatibus hic? 
+                                               Quo ex veniam debitis voluptatum.
+                                           </p>
+                                       </div>
+                                    </div>
+                                </div>
+                                <div class="example-titles">
+                                    <h2 class="example-title">Growing Business</h2>
+                                    <p class="example-discription">Приложение</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>                
+            </section>
+        </main>
+
+            <!--Футер-->
+            <footer class="footer">
+                <div class="container">
+                    <div class="contacts">
+                        <a class="link logo-text-footer" href="/">
+                            <span class="logo-text-accent">Web</span>Studio
+                        </a>
+                        <address class="address-text">
+                            г. Киев, пр-т Леси Украинки, 26
+                        </address>
+                        <ul class="list footer-contact-menu">
+                            <li>
+                                <a class="link contact-text-footer" href="mailto:info@example.com">info@example.com</a>
+                            </li>
+                            <li>
+                                <a class="link contact-text-footer" href="tel:+380991111111">+38 099 111 11 11</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>присоединяйтесь</h3>
+                        <ul class="footer-links">
+                            <li>
+                                <a href="#" class="footer-link">
+                                    <svg class="link-icon">
+                                        <use href="../images/sprite.svg#icon-instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">
+                                    <svg class="link-icon">
+                                        <use href="../images/sprite.svg#icon-twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">
+                                    <svg class="link-icon">
+                                        <use href="../images/sprite.svg#icon-facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">
+                                    <svg class="link-icon">
+                                        <use href="../images/sprite.svg#icon-linkedin"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-form">
+                <h3>Подпишитесь на рассылку</h3>
+                <form>
+                        <div class="subscriber">
+                        <label>
+                            <input 
+                            type="email" 
+                            name="email" 
+                            placeholder="E-mail">                        
+                        </label>
+                        <button type="submit">Подписаться
+                            <svg height="24" width="24">
+                                <use href="../images/sprite.svg#icon-send"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+                </div>
+            </footer>
+            
+    </body>
+</html>

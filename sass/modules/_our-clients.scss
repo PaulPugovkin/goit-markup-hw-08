@@ -1,0 +1,52 @@
+.clients-list {
+    display: flex;
+    margin-top: 50px;
+
+    li:last-child {
+        margin-right: 0;
+    }
+}
+
+.clients {
+    padding-top: 95px;
+    padding-bottom: 95px;
+
+    h2 {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.clients-item {
+    display: flex;
+
+    margin-right: 30px;
+
+    a {
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+
+        width: 170px;
+        height: 90px;
+
+        border-radius: 4px;
+        border: 1px solid rgba(175, 177, 184, 1);
+
+        fill: #afb1b8;
+
+        transition:
+            fill $transition-cubic,
+            border $transition-cubic;            
+    }
+    a:hover,
+    a:focus {
+
+        cursor: pointer;
+
+        fill: $accent-color;
+
+        border: 1px solid $accent-color;
+    }
+}
