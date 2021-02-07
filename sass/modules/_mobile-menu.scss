@@ -1,0 +1,52 @@
+.mobile-menu {
+    padding: 20px;
+    text-align: left;
+    
+    @media screen and (max-width: 767px) {
+        position: absolute;
+        display: none;
+        top: 0;
+        left: 0;
+        width: 100%;
+
+        background-color: #fff;
+
+        &.is-open {
+            display: block;
+        }
+    }
+}
+
+
+.menu-button {
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        margin: 0;
+        padding: 0;
+        border: none;
+        background-color: transparent;
+        z-index: 900;
+
+        transform: translateY(-50%);
+
+        .icon-cross {
+            display: none;
+        }
+
+        &.is-open .icon-cross {
+            display: block;
+        }
+
+        &.is-open .icon-menu {
+            display: none;
+        }
+
+        &:hover {
+            fill: $accent-color;
+        }
+
+        @media screen and (min-width:768px) {
+            display: none;
+        }
+    }

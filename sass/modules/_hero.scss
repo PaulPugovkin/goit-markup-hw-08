@@ -1,11 +1,4 @@
 .main-block {
-    padding: 200px 0;
-    max-width: 1600px;
-    margin: 0 auto;
-
-    display: flex;
-    text-align: center;
-    align-items: center;
     background-image: linear-gradient(to right,
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
@@ -13,14 +6,12 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
+    width: 100%;
 }
 
 .offer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 650px;
-    margin: 0 auto;
+    padding: 118px 0;
+    text-align: center;
 }
 
 .main-hero {
@@ -29,7 +20,7 @@
     margin-bottom: 30px;
 
     font-weight: 900;
-    font-size: 44px;
+    font-size: 26px;
     line-height: 1.37;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -44,6 +35,8 @@
     padding-top: 10px;
     padding-bottom: 10px;
 
+    margin: 0 auto;
+    
     font-weight: bold;
     font-size: 16px;
     line-height: 1.88;
@@ -61,3 +54,70 @@ h2 {
     text-align: center;
     color: $titles-color;
 }
+
+
+// DESKTOP //
+
+// .main-block {
+//     padding: 200px 0;
+//     max-width: 1600px;
+//     margin: 0 auto;
+
+//     display: flex;
+//     text-align: center;
+//     align-items: center;
+//     background-image: linear-gradient(to right,
+//             rgba(47, 48, 58, 0.4),
+//             rgba(47, 48, 58, 0.4)),
+//         url(../images/main-bg.jpg);
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     background-position-x: center;
+// }
+
+// .offer {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     width: 650px;
+//     margin: 0 auto;
+// }
+
+// .main-hero {
+//     display: block;
+//     margin-top: 0;
+//     margin-bottom: 30px;
+
+//     font-weight: 900;
+//     font-size: 44px;
+//     line-height: 1.37;
+//     letter-spacing: 0.06em;
+//     text-transform: uppercase;
+//     color: $secondary-text-color;
+// }
+
+// .offer-link {
+//     display: block;
+//     width: 200px;
+//     padding-right: 32px;
+//     padding-left: 32px;
+//     padding-top: 10px;
+//     padding-bottom: 10px;
+
+//     font-weight: bold;
+//     font-size: 16px;
+//     line-height: 1.88;
+//     color: $secondary-text-color;
+//     background-color: $accent-color;
+//     border-radius: 4px;
+
+//     border: none;
+// }
+
+// h2 {
+//     font-weight: 700;
+//     font-size: 36px;
+//     line-height: 1.17;
+//     text-align: center;
+//     color: $titles-color;
+// }
