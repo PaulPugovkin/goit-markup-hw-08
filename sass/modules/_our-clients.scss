@@ -1,8 +1,11 @@
 .container.clients {
-    padding: 60px 0;
+    padding: 60px 15px;
 }
 
 .clients-list {
+    @media screen and (min-width:768px) and (max-width:1169px) {
+        margin: -15px;
+    }
 }
 
 .clients {
@@ -14,18 +17,29 @@
 }
 
 .clients-item {
+
+    @media screen and (max-width: 767px) {
+
     display: inline-block;
     width: calc((100% - 4 * 16px) / 2);
     height: 90px;
     margin: 0 30px 30px 15px;
 
-    &:nth-child(2n) {
-        margin-right: 0;
-        margin-left: 0;
+        &:nth-child(2n) {
+            margin-right: 0;
+            margin-left: 0;
+        }
+
+        &:nth-last-child(-n + 2) {
+            margin-bottom: 0;
+        }
     }
 
-    &:nth-last-child(-n + 2) {
-        margin-bottom: 0;
+    @media screen and (min-width:768px) and (max-width:1169px) {
+       display: inline-block;
+       width: calc((100% - 7px - 6 * 15px) / 3);
+       height: 90px;
+       margin: 15px;
     }
 
     a {

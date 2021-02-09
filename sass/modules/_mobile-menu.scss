@@ -1,8 +1,8 @@
 .mobile-menu {
-    padding: 20px;
-    text-align: left;
     
     @media screen and (max-width: 767px) {
+        padding: 20px;
+        text-align: left;
         position: absolute;
         display: none;
         top: 0;
@@ -14,6 +14,12 @@
         &.is-open {
             display: block;
         }
+    }
+
+    @media screen and (min-width:768px) and (max-width:1169px) {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
     }
 }
 

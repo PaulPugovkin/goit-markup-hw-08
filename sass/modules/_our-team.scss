@@ -3,16 +3,30 @@
     padding-top: 94px;
     padding-bottom: 94px;
 
-    .master-card {
-        text-align: center;
-        display: block;
-        width: 100%;
-        margin-bottom: 30px;
+    ul:first-child {
+        margin: -15px;
+    }
+    
 
-        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    .master-card {
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
         background-color: $main-background-color;
         border-radius: 0px 0px 4px 4px;
+
+        @media screen and (max-width: 767px) {
+        text-align: center;
+        display: block;
+        width: 100%;
+        margin-bottom: 30px;        
+        }
+
+        @media screen and (min-width:768px) and (max-width:1169px) {
+            display: inline-block;
+            width: calc((100% - 4px - 2 * 30px) / 2);
+            margin: 15px;
+        }
     }
     .master-card:nth-of-type(4n) {
         margin-bottom: 0px;
@@ -44,6 +58,10 @@
     display: flex;
     justify-content: space-between;
     padding: 0 90px;
+
+    @media screen and (min-width:768px) and (max-width:1169px) {
+        padding: 0 70px;
+    }
 
 
     li {
@@ -78,7 +96,8 @@
 }
 
 .discription-item {
-    padding: 30px 0;
+    text-align: center;
+    padding: 30px 0
 }
 
 .our-team-name {

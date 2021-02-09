@@ -1,6 +1,26 @@
 .current-page-link {
     color: $accent-color;
     font-weight: 500;
+
+    @media screen and (min-width:768px) and (max-width: 1169px) {
+        position: relative;
+
+        &::after {
+            content: "";
+
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+
+            display: block;
+
+            width: 100%;
+            height: 4px;
+            border-radius: 4px;
+
+            background-color: #2196f3;
+        }
+    }
 }
 
 .header {
@@ -12,8 +32,14 @@
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
-            }                
+            }
+            
+            @media screen and (min-width:768px) and (max-width:1169px) {
+                display: flex;
+                align-items: center;
+            }
         }
+
         &-socials {
             @media screen and (min-width: 768px) {
                 display: none;
@@ -54,6 +80,22 @@
 
         ul a {
             font-size: 40px;
+        }
+    }
+
+    @media screen and (min-width:768px) and (max-width:1169px) {
+        display: flex;
+
+        ul {
+            display: flex;
+
+            a {
+                padding: 32px 0;
+            }
+
+            li {
+                margin-right: 50px;
+            }
         }
     }
 }
@@ -113,6 +155,29 @@
             svg {
                 display: none;
                 }
+    }
+
+    @media screen and (min-width:768px) and (max-width:1169px) {
+        display: flex;
+        flex-direction: column;
+
+        svg {
+            margin-right: 8px;
+        }
+
+        li:first-child {
+            margin-bottom: 10px;
+        }
+
+        a {
+            fill: rgba(117, 117, 117, 1);
+        }
+        
+        a:hover,
+        a:focus {
+            color: $accent-color;
+            fill: $accent-color;
+        }
     }
 
 

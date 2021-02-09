@@ -5,6 +5,11 @@
     background: $secondary-background-color;
 
     .container {
+        @media screen and (min-width:768px) and (max-width:1169px) {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline;
+        }
     }
 
     h3 {
@@ -26,11 +31,22 @@
 text-align: center;
 line-height: 24px;
 margin-bottom: 60px;
+
+@media screen and (min-width:768px) and (max-width:1169px) {
+    margin: 0;
+    width: calc(100% / 2);
+}
+
 }
 
 .join-us {
     text-align: center;
     margin-bottom: 60px;
+
+    @media screen and (min-width:768px) and (max-width:1169px) {
+        margin: 0;
+        width: calc(100% / 2);
+    }
 }
 
 .footer-links {
@@ -115,6 +131,12 @@ margin-bottom: 60px;
 .footer-form {
     text-align: center;
     background-color: $secondary-background-color;
+
+    @media screen and (min-width:768px) and (max-width:1169px) {
+        margin: 0 auto;
+        margin-top: 60px;
+        width: 450px;
+    }
 
     h3 {
         margin-bottom: 20px;

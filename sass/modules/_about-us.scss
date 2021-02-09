@@ -1,5 +1,6 @@
 .about-us-container {
     padding-top: 44px;
+    padding-bottom: 60px;
 
     .container h2 {
         margin: 0;
@@ -17,12 +18,25 @@
     }
 
     .container ul {
+        @media screen and (min-width:768px) and (max-width:1169px) {
+            display: block;
+            margin: -15px;
+        }
     }
 
     .container li {
+
+        @media screen and (max-width: 767px) {
         display: block;
         width: 100%;
         margin-bottom: 30px;
+        }
+
+        @media screen and (min-width:768px) and (max-width:1169px) {
+            display: inline-block;
+            width: calc((100% - 4px - 2 * 30px) / 2);
+            margin: 15px;
+        }
     }
 
     .container li:nth-of-type(4n) {
