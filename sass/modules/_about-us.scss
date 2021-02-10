@@ -2,6 +2,10 @@
     padding-top: 44px;
     padding-bottom: 60px;
 
+    @media screen and (min-width:1170px) {
+        padding-top: 94px;
+    }
+
     .container h2 {
         margin: 0;
         padding: 0;
@@ -22,6 +26,10 @@
             display: block;
             margin: -15px;
         }
+
+        @media screen and (min-width: 1170px) {
+            margin: -15px;
+        }
     }
 
     .container li {
@@ -37,6 +45,14 @@
             width: calc((100% - 4px - 2 * 30px) / 2);
             margin: 15px;
         }
+
+        @media screen and (min-width:1170px) {
+            display: inline-block;
+            width: calc((100% - 8px - 4 * 30px) / 4);
+            margin-bottom: 0;
+            margin: 15px;
+        }
+
     }
 
     .container li:nth-of-type(4n) {
@@ -65,61 +81,3 @@
     line-height: 24px;
     color: $main-content-text-color;
 }
-
-
-// DESKTOP //
-// .about-us-container {
-//     padding-top: 44px;
-
-//     .container h2 {
-//         margin: 0;
-//         padding: 0;
-//         visibility: hidden;
-//     }
-
-//     .container h3 {
-//         margin: 0;
-//         margin-bottom: 10px;
-//     }
-
-//     .container p {
-//         margin: 0;
-//     }
-
-//     .container ul {
-//         display: flex;
-//         flex-wrap: wrap;
-//     }
-
-//     .container li {
-//         display: block;
-//         width: calc((100% - 90px) / 4);
-//         margin-right: 30px;
-//     }
-
-//     .container li:nth-of-type(4n) {
-//         margin-right: 0;
-//     }
-// }
-
-// .features-icon {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     width: 270px;
-//     height: 120px;
-//     background-color: $thirdly-background-color;
-//     margin-bottom: 30px;
-// }
-
-// .about-us-title {
-//     text-transform: uppercase;
-//     color: $titles-color;
-// }
-
-// .about-us-text {
-//     font-style: normal;
-//     font-weight: normal;
-//     line-height: 24px;
-//     color: $main-content-text-color;
-// }
