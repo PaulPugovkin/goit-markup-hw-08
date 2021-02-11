@@ -6,6 +6,10 @@ body {
     line-height: 1.15;
 }
 
+body.modal-open {
+    overflow: hidden;
+}
+
 a {
     display: block;
 }
@@ -37,15 +41,14 @@ textarea {
 .container {
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 
     @media screen and (min-width:450px) {
         width: 450px;
     }
 
     @media screen and (min-width: $tab) {
-        width: 768px;
+        width: 738px;
     }
 
     @media screen and (min-width: $desktop) {
