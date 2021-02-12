@@ -36,9 +36,14 @@
 
     transition: transform $transition-cubic;
 
-    @media screen and (min-width:480px) {
+    @media screen and (min-width:480px) and (max-width:1199px) {
         margin: 0 auto;
         width: 450px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin: 0 auto;
+        width: 528px;
     }
 
 }
@@ -188,10 +193,18 @@
         display: flex;
         font-size: 12px;
         padding: 0 3px;
+
+        @media screen and (min-width:1200px) {
+            font-size: 14px;
+        }
     }
 
     label {
         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
         font-style: normal;
         font-weight: normal;
         font-size: 12px;
@@ -199,12 +212,23 @@
 
         letter-spacing: 0.03em;
         margin: 0;
+
+        color: #757575;
+
+        @media screen and (min-width:1200px) {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 1.71;
+
+            letter-spacing: 0.03em;
+        }
     }
 
     label::before {
         content: "";
         width: 16px;
-        height: 16px;
+        height: 15px;
         border: 1px solid #212121;
         border-radius: 4px;
         outline: none;
