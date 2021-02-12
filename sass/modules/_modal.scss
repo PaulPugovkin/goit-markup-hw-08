@@ -189,6 +189,8 @@
     }
 
     a {
+        display: flex;
+        font-size: 12px;
         padding: 0 3px;
     }
 
@@ -196,7 +198,7 @@
         display: flex;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 12px;
         line-height: 1.15;
 
         letter-spacing: 0.03em;
@@ -206,7 +208,7 @@
     label::before {
         content: "";
         width: 16px;
-        height: 15px;
+        height: 16px;
         border: 1px solid #212121;
         border-radius: 4px;
         outline: none;
@@ -220,13 +222,15 @@
 }
 
 .checkbox {
+    display: flex;
+    align-self: center;
 //     position: absolute;
 // appearance: none;
 
     &:checked+label::before {
         border: none;
         width: 16px;
-        height: 16px;
+        height: 15px;
         background-color: $accent-color;
         background-image: url("../images/check.svg");
         background-size: contain;

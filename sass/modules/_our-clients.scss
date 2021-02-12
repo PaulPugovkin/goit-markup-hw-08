@@ -3,11 +3,11 @@
 }
 
 .clients-list {
-    @media screen and (min-width:768px) and (max-width:1169px) {
+    @media screen and (min-width:768px) and (max-width:1199px) {
         margin: -15px;
     }
 
-    @media screen and (min-width:1170px) {
+    @media screen and (min-width:1200px) {
         display: flex;
         margin: -15px;
     }
@@ -41,14 +41,14 @@
         }
     }
 
-    @media screen and (min-width:768px) and (max-width:1169px) {
+    @media screen and (min-width:768px) and (max-width:1199px) {
        display: inline-block;
        width: calc((100% - 7px - 6 * 15px) / 3);
        height: 90px;
        margin: 15px;
     }
 
-    @media screen and (min-width:1170px) {
+    @media screen and (min-width:1200px) {
         width: calc((100% - 12px - 6 * 15px) / 6);
         height: 90px;
         margin: 15px;

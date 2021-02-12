@@ -6,37 +6,37 @@
 
     @media screen and (max-width:767px) {
         background-image: $hero-gradient,
-        url('../../images/hero/hero-mobile.jpg');
+        url('../../../images/hero/hero-mobile.jpg');
         @media screen and (min-device-pixel-ratio: 2),
         screen and (min-resolution: 192dpi),
         screen and (min-resolution: 2dppx) {
             & {
                 background-image: $hero-gradient,
-                url('../../images/hero/hero-mobile@2x-min.jpg');
+                url('../../../images/hero/hero-mobile@2x-min.jpg');
             }
         }
     }
 
-    @media screen and (min-width:768px) and (max-width:1169px) {
+    @media screen and (min-width:768px) and (max-width:1199px) {
         background-image: $hero-gradient,
-        url('../../images/hero/hero-tablet.jpg');
+        url('../../../images/hero/hero-tablet.jpg');
 
         @media screen and (min-device-pixel-ratio: 2),
         screen and (min-resolution: 192dpi),
         screen and (min-resolution: 2dppx) {
             background-image: $hero-gradient,
-            url('../../images/hero/hero-tablet@2x.jpg');
+            url('../../../images/hero/hero-tablet@2x.jpg');
         }
     }
 
-    @media screen and (min-width: 1170px) {
-        background-image: $hero-gradient, url('../../images/hero/hero-desktop.jpg');
+    @media screen and (min-width: 1200px) {
+        background-image: $hero-gradient, url('../../../images/hero/hero-desktop.jpg');
 
         @media screen and (min-device-pixel-ratio: 2),
         screen and (min-resolution: 192dpi),
         screen and (min-resolution: 2dppx) {
             background-image: $hero-gradient,
-            url('../../images/hero/hero-desktop@2x.jpg');
+            url('../../../images/hero/hero-desktop@2x.jpg');
         }
     }
 
@@ -46,11 +46,11 @@
     padding: 118px 0;
     text-align: center;
     
-    @media screen and (min-width:768px) and (max-width:1169px)  {
+    @media screen and (min-width:768px) and (max-width:1199px)  {
         width: 360px;
         margin: 0 auto;
     }
-    @media screen and (min-width:1170px) {
+    @media screen and (min-width:1200px) {
         width: 620px;
         margin: 0 auto;
         padding: 200px 0;
@@ -69,7 +69,7 @@
     text-transform: uppercase;
     color: $secondary-text-color;
 
-    @media screen and (min-width:1170px) {
+    @media screen and (min-width:1200px) {
         font-size: 44px;
     }
 
