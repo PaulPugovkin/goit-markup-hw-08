@@ -334,7 +334,7 @@ textarea {
 }
 
 .current-page-link {
-  color: #2196f3;
+  color: #0678d2;
   font-weight: 500;
 }
 
@@ -441,11 +441,11 @@ textarea {
     line-height: 22px;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: #2196f3;
+    color: #0678d2;
   }
   .header-socials li a:visited,
   .header-socials li a:hover {
-    color: #2196f3;
+    color: #0678d2;
   }
 }
 
@@ -518,7 +518,7 @@ textarea {
 }
 
 .header-link:hover, .header-link:focus {
-  color: #2196f3;
+  color: #0678d2;
 }
 
 .logo-text {
@@ -552,7 +552,7 @@ textarea {
     margin-bottom: 32px;
   }
   .contact-menu li:last-child a {
-    color: #2196f3;
+    color: #0678d2;
   }
   .contact-menu li:first-child {
     font-size: 28px;
@@ -562,8 +562,8 @@ textarea {
   }
   .contact-menu a:hover,
   .contact-menu a:focus {
-    color: #2196f3;
-    fill: #2196f3;
+    color: #0678d2;
+    fill: #0678d2;
   }
   .contact-menu svg {
     display: none;
@@ -591,8 +591,8 @@ textarea {
   }
   .contact-menu a:hover,
   .contact-menu a:focus {
-    color: #2196f3;
-    fill: #2196f3;
+    color: #0678d2;
+    fill: #0678d2;
   }
 }
 
@@ -630,8 +630,8 @@ textarea {
   }
   .contact-menu a:hover,
   .contact-menu a:focus {
-    color: #2196f3;
-    fill: #2196f3;
+    color: #0678d2;
+    fill: #0678d2;
   }
 }
 
@@ -739,7 +739,7 @@ textarea {
   font-size: 16px;
   line-height: 1.88;
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: #0678d2;
   border-radius: 4px;
   border: none;
 }
@@ -1156,8 +1156,8 @@ h2 {
 .clients-item a:hover,
 .clients-item a:focus {
   cursor: pointer;
-  fill: #2196f3;
-  border: 1px solid #2196f3;
+  fill: #0678d2;
+  border: 1px solid #0678d2;
 }
 
 .footer {
@@ -1329,7 +1329,7 @@ h2 {
 }
 
 .footer-link:hover, .footer-link:focus {
-  background-color: #2196f3;
+  background-color: #0678d2;
 }
 
 .logo-text-footer {
@@ -1346,11 +1346,11 @@ h2 {
 }
 
 .logo-text-footer .logo-text-accent {
-  color: #2196f3;
+  color: #0f80da;
 }
 
 .logo-text .logo-text-accent {
-  color: #2196f3;
+  color: #0678d2;
 }
 
 .contact-text-footer {
@@ -1360,7 +1360,7 @@ h2 {
 }
 
 .contact-text-footer:hover, .contact-text-footer:focus {
-  color: #2196f3;
+  color: #0678d2;
 }
 
 .address-text {
@@ -1441,7 +1441,7 @@ h2 {
   line-height: 30px;
   letter-spacing: 0.06em;
   color: #FFFFFF;
-  background-color: #2196f3;
+  background-color: #0678d2;
   border-radius: 4px;
   outline: none;
   border: none;
@@ -1523,7 +1523,7 @@ h2 {
     line-height: 30px;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-    background-color: #2196f3;
+    background-color: #0678d2;
     border-radius: 4px;
     outline: none;
     border: none;
@@ -1612,7 +1612,7 @@ h2 {
 .button-item:hover, .button-item:focus {
   -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-  background: #2196f3;
+  background: #0678d2;
   color: #ffffff;
 }
 
@@ -1823,7 +1823,7 @@ h2 {
 }
 
 .close-button:hover svg {
-  fill: #2196f3;
+  fill: #0678d2;
 }
 
 .offer-form {
@@ -1894,13 +1894,13 @@ h2 {
 .form-field:hover textarea,
 .form-field:focus-within textarea,
 .form-field:focus-within input {
-  border: 1px solid #2196f3;
+  border: 1px solid #0678d2;
   outline: none;
 }
 
 .form-field:hover .icon,
 .form-field:focus-within .icon {
-  fill: #2196f3;
+  fill: #0678d2;
 }
 
 .form-field label {
@@ -1991,7 +1991,7 @@ h2 {
 }
 
 .policy-conditions {
-  color: #2196f3;
+  color: #0678d2;
 }
 
 .checkbox {
@@ -2006,7 +2006,7 @@ h2 {
   border: none;
   width: 16px;
   height: 15px;
-  background-color: #2196f3;
+  background-color: #0678d2;
   background-image: url("../images/check.svg");
   background-size: contain;
   background-position: center;
@@ -2083,7 +2083,7 @@ h2 {
 }
 
 .menu-button:hover {
-  fill: #2196f3;
+  fill: #0678d2;
 }
 
 @media screen and (min-width: 768px) {
