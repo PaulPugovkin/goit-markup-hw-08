@@ -769,7 +769,7 @@ h2 {
   visibility: hidden;
 }
 
-.about-us-container .container h3 {
+.about-us-container .container li h2 {
   margin: 0;
   margin-bottom: 10px;
 }
