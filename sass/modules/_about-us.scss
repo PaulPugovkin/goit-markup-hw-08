@@ -6,12 +6,6 @@
         padding-top: 94px;
     }
 
-    .container h2 {
-        margin: 0;
-        padding: 0;
-        visibility: hidden;
-    }
-
     .container li h2 {
         margin: 0;
         margin-bottom: 10px;
@@ -71,8 +65,14 @@
 }
 
 .about-us-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: $titles-color;
+
+    color: #212121;
+    text-align: left;
 }
 
 .about-us-text {
