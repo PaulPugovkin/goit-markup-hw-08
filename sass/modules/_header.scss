@@ -51,30 +51,33 @@
             }
             @media screen and (max-width: 767px) {
                 display: flex;
+                flex-wrap: wrap;
                 align-items: center;
                 padding-bottom: 48px;
+                justify-content: space-between;
                 
-                .slash {
+                .slash:not(:last-child) {
                     display: flex;
-                    margin: 10px;
-                }
+                    border-right: 1px solid rgba(33, 33, 33, 0.2);
+                    padding-right: 10px;
+                    }
 
-                .slash:first-child {
-                    margin-left: 0;
-                }
+                // .slash:first-child {
+                //     margin-left: 0;
+                // }
 
-                .slash:last-child {
-                    margin-right: 0;
-                }
+                // .slash:last-child {
+                //     margin-right: 0;
+                // }
 
-                .slash:not(:last-child)::after {
-                    content: "";
-                    display: block;
-                    height: 22px;
-                    width: 1px;
-                    margin-left: 10px;
-                    background-color: rgba(33, 33, 33, 0.2);                    
-                }
+                // .slash:not(:last-child)::after {
+                //     content: "";
+                //     display: block;
+                //     height: 22px;
+                //     width: 1px;
+                //     margin-left: 10px;
+                //     background-color: rgba(33, 33, 33, 0.2);                    
+                // }
 
                 li a {
                     font-size: 18px;
