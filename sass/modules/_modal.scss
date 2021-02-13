@@ -66,7 +66,8 @@
 
     transition: transform $transition-cubic;
 
-    &:hover svg {
+    &:hover svg,
+    &:focus svg {
         fill: $accent-color;
     }
 }
@@ -200,11 +201,6 @@
     }
 
     label {
-        display: flex;
-        flex-wrap: wrap;
-        // justify-content: center;
-        align-items: center;
-        text-align: left;
 
         font-style: normal;
         font-weight: normal;
@@ -226,14 +222,17 @@
         }
 
         span {
-            display: inline;
-            align-items: center;
+            
+            @media screen and (min-width: 450px) {
+                display: flex;
+                align-items: center;
+            }
 
             &::before {
                 content: "";
                 display: inline-flex;
                 width: 16px;
-                height: 15px;
+                height: 16px;
                 border: 1px solid #212121;
                 border-radius: 4px;
                 outline: none;
@@ -255,11 +254,12 @@
     &:checked+label span::before {
         border: none;
         width: 16px;
-        height: 15px;
+        height: 16px;
         background-color: $accent-color;
         background-image: url("../images/check.svg");
         background-size: contain;
         background-position: center;
+        display: inline-flex;
     }
     &:focus+label span::before {
         outline: 2px solid #212121;

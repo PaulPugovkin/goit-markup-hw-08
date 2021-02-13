@@ -1837,7 +1837,8 @@ h2 {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-button:hover svg {
+.close-button:hover svg,
+.close-button:focus svg {
   fill: #0678d2;
 }
 
@@ -1987,15 +1988,6 @@ h2 {
 }
 
 .form-field-policy label {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: left;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -2015,11 +2007,15 @@ h2 {
   }
 }
 
-.form-field-policy label span {
-  display: inline;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+@media screen and (min-width: 450px) {
+  .form-field-policy label span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 .form-field-policy label span::before {
@@ -2028,7 +2024,7 @@ h2 {
   display: -ms-inline-flexbox;
   display: inline-flex;
   width: 16px;
-  height: 15px;
+  height: 16px;
   border: 1px solid #212121;
   border-radius: 4px;
   outline: none;
@@ -2051,11 +2047,14 @@ h2 {
 .checkbox:checked + label span::before {
   border: none;
   width: 16px;
-  height: 15px;
+  height: 16px;
   background-color: #0678d2;
   background-image: url("../images/check.svg");
   background-size: contain;
   background-position: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
 .checkbox:focus + label span::before {
