@@ -669,6 +669,8 @@ textarea {
 
 @media screen and (min-width: 1200px) {
   .main-block {
+    margin: 0 auto;
+    max-width: 1600px;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero/hero-desktop.jpg");
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero-desktop.jpg");
   }
@@ -1003,10 +1005,16 @@ h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 0 90px;
+}
+
+@media screen and (max-width: 450px) {
+  .our-team-links {
+    padding: 0 60px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -1548,7 +1556,10 @@ h2 {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    padding: 60px 0 40px 0;
+    margin: 60px 0 40px 0;
+  }
+  .button-list li:not(:last-child) {
+    margin-bottom: 15px;
   }
 }
 
@@ -1563,7 +1574,7 @@ h2 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding-top: 60px;
+    margin-top: 60px;
   }
 }
 
@@ -1597,7 +1608,6 @@ h2 {
   padding-left: 22px;
   padding-top: 6px;
   padding-bottom: 6px;
-  margin-bottom: 15px;
   text-align: center;
   border-style: none;
   display: block;
@@ -1965,9 +1975,7 @@ h2 {
 }
 
 .form-field-policy a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: inline;
   font-size: 12px;
   padding: 0 3px;
 }
@@ -1984,12 +1992,10 @@ h2 {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: left;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -2009,8 +2015,18 @@ h2 {
   }
 }
 
-.form-field-policy label::before {
+.form-field-policy label span {
+  display: inline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form-field-policy label span::before {
   content: "";
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   width: 16px;
   height: 15px;
   border: 1px solid #212121;
@@ -2032,7 +2048,7 @@ h2 {
       align-self: center;
 }
 
-.checkbox:checked + label::before {
+.checkbox:checked + label span::before {
   border: none;
   width: 16px;
   height: 15px;
@@ -2042,7 +2058,7 @@ h2 {
   background-position: center;
 }
 
-.checkbox:focus + label::before {
+.checkbox:focus + label span::before {
   outline: 2px solid #212121;
 }
 
