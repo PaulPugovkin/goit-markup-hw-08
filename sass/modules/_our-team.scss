@@ -3,6 +3,10 @@
     padding-top: 94px;
     padding-bottom: 94px;
 
+    @media screen and (max-width: 1199px) {
+        padding: 60px 0;
+    }
+
     ul:first-child {
         margin: -15px;
     }

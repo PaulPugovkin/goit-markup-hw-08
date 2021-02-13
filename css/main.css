@@ -911,6 +911,12 @@ h2 {
   padding-bottom: 94px;
 }
 
+@media screen and (max-width: 1199px) {
+  .our-team-block {
+    padding: 60px 0;
+  }
+}
+
 .our-team-block ul:first-child {
   margin: -15px;
 }
