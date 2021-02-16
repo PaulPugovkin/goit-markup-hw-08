@@ -26,7 +26,6 @@
 .header {
     border-bottom: 1px solid $header-border;
     .container {
-        position: relative;
 
             @media screen and (max-width:767px) {
                 display: flex;
@@ -53,7 +52,6 @@
                 display: flex;
                 flex-wrap: wrap;
                 align-items: center;
-                padding-bottom: 48px;
                 justify-content: space-between;
                 
                 .slash:not(:last-child) {
@@ -83,8 +81,6 @@
 .nav-menu {
 
     @media screen and (max-width:767px) {
-
-        margin-bottom: 300px;
 
         ul li:not(:last-child) {
             margin-bottom: 32px;
