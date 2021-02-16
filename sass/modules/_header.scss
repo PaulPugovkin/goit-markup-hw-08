@@ -154,6 +154,10 @@
     line-height: 1.94;
     color: $titles-color;
 
+    @media screen and (min-width: 768px) {
+        margin-right: 88px;
+    }
+
     @media screen and (min-width:1200px) {
         margin-right: 93px;
     }
@@ -199,6 +203,7 @@
     @media screen and (min-width:768px) and (max-width:1199px) {
         display: flex;
         flex-direction: column;
+        margin-left: auto;
 
         svg {
             margin-right: 8px;

@@ -513,6 +513,12 @@ textarea {
   color: #212121;
 }
 
+@media screen and (min-width: 768px) {
+  .logo-text {
+    margin-right: 88px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .logo-text {
     margin-right: 93px;
@@ -563,6 +569,7 @@ textarea {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-left: auto;
   }
   .contact-menu svg {
     margin-right: 8px;
