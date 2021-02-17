@@ -173,9 +173,6 @@
                 fill: $main-content-text-color;
             }
 
-            li {
-                margin-bottom: 32px;
-            }
 
             li:last-child a {
                 color: $accent-color;
@@ -186,6 +183,7 @@
             }
 
             li:last-child {
+                margin-bottom: 30px;
                 font-size: 40px;
             }
 
