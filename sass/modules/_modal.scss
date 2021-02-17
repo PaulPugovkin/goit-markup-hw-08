@@ -25,24 +25,17 @@
     position: relative;
 
     padding: 15px;
-
-    background-color: #ffffff;
-
-    transition: transform $transition-cubic;
-    
-    padding: 15px;
+    margin: 0 auto;
 
     background-color: #ffffff;
 
     transition: transform $transition-cubic;
 
     @media screen and (min-width:480px) and (max-width:1199px) {
-        margin: 0 auto;
         width: 450px;
     }
 
     @media screen and (min-width: 1200px) {
-        margin: 0 auto;
         width: 528px;
     }
 
@@ -213,12 +206,8 @@
         color: #757575;
 
         @media screen and (min-width:1200px) {
-            font-style: normal;
-            font-weight: normal;
             font-size: 14px;
             line-height: 1.71;
-
-            letter-spacing: 0.03em;
         }
 
         span {

@@ -26,22 +26,8 @@
 .header {
     border-bottom: 1px solid $header-border;
     .container {
-
-            @media screen and (max-width:767px) {
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-            }
-            
-            @media screen and (min-width:768px) and (max-width:1199px) {
-                display: flex;
-                align-items: center;
-            }
-
-            @media screen and (min-width: 1200px) {
-                display: flex;
-                align-items: center;
-            }
+        display: flex;
+        align-items: center;
         }
 
         &-socials {
@@ -164,9 +150,9 @@
 }
 
 .contact-menu {
-
+    display: flex;
+    
     @media screen and (max-width: 767px) {
-        display: flex;
         flex-direction: column-reverse;
 
             a {
@@ -199,7 +185,6 @@
     }
 
     @media screen and (min-width:768px) and (max-width:1199px) {
-        display: flex;
         flex-direction: column;
         margin-left: auto;
 
@@ -223,7 +208,6 @@
     }
 
     @media screen and (min-width: 1200px) {
-        display: flex;
         margin-left: auto;
 
             li {

@@ -44,14 +44,10 @@ margin-bottom: 60px;
 }
 
 @media screen and (min-width:1200px) {
-        display: flex;
-        flex-direction: column;
-
         text-align: left;
 
         margin-right: 70px;
         margin-bottom: 0;
-        display: block;
 }
 
 }
@@ -83,7 +79,6 @@ margin-bottom: 60px;
     }
 
 @media screen and (min-width:1200px) {
-        display: flex;
         align-items: baseline;
         flex-direction: row;
 
@@ -257,12 +252,7 @@ margin-bottom: 60px;
 
         input {
             display: flex;
-            padding: 15px 0 15px 15px;
             width: 358px;
-
-            background-color: transparent;
-            border: 1px solid $main-content-text-color;
-            border-radius: 4px;
 
             margin-bottom: 0;
         }

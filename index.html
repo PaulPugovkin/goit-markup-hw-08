@@ -179,7 +179,7 @@
             <section class="our-team-block">
                 <div class="container">
                     <h2>Наша команда</h2>
-                    <ul class="list">
+                    <ul class="our-team-block-list list">
                         <li class="master-card">
                             <picture>
                                 <source srcset="./images/masters/mobile-igor.jpg 1x, ./images/masters/mobile-igor@2x.jpg 2x"
@@ -471,12 +471,14 @@
                 <h3>Подпишитесь на рассылку</h3>
                 <form aria-label="subscribe-form">
                         <div class="subscriber">
-                        <label>
+                        <label for="footer-mail" class="visually-hidden">
+                        </label>
                             <input 
                             type="email" 
                             name="email" 
-                            placeholder="E-mail">                        
-                        </label>
+                            placeholder="E-mail"
+                            id="footer-mail"
+                            >                        
                         <button type="submit" aria-label="submit">Подписаться
                             <svg height="24" width="24">
                                 <use href="./images/sprite.svg#icon-send"></use>
