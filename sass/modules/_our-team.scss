@@ -2,6 +2,23 @@
     background: $thirdly-background-color;
     padding-top: 94px;
     padding-bottom: 94px;
+    text-align: center;
+
+    h2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+
+        color: #212121;
+
+        @media screen and (min-width: 1200px) {
+            font-size: 36px;
+        }
+    }
 
     @media screen and (max-width: 1199px) {
         padding: 60px 0;
@@ -9,6 +26,10 @@
 
     &-list {
         margin: -15px;
+
+        @media screen and (max-width: 767px) {
+            margin: 0;
+        }
 
         @media screen and (min-width: 1200px) {
             display: flex;
@@ -26,9 +47,14 @@
         margin: 15px;
 
         @media screen and (max-width: 767px) {
+            margin: 0;
             text-align: center;
             display: block;
-            width: 100%;      
+            width: 100%;
+            
+            &:not(:last-child) {
+                margin-bottom: 30px;
+            }
         }
 
         @media screen and (min-width:768px) and (max-width:1199px) {
