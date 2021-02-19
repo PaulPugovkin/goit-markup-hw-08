@@ -1537,6 +1537,12 @@ h2 {
   margin: -15px;
 }
 
+@media screen and (max-width: 767px) {
+  .example-container {
+    margin: 0;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .example-container {
     display: -webkit-box;
@@ -1561,6 +1567,12 @@ h2 {
 .example-container .example-block {
   background: #ffffff;
   outline: 1px solid #eeeeee;
+}
+
+@media screen and (min-width: 480px) {
+  .example-container .example-block {
+    width: 450px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1784,7 +1796,6 @@ h2 {
   color: #FFFFFF;
   background-color: #188CE8;
   border: none;
-  outline: none;
   border-radius: 4px;
 }
 
